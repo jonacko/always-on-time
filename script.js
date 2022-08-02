@@ -1,20 +1,15 @@
+  // display current date and time on page
+  $('#currentDay').text(moment().format('MMMM Do YYYY, h:mm a'));
+
 $(document).ready(function () {
-  // listen for save button clicks
+  // when button is clicked saves in local storage
   $('.saveBtn').on('click', function () {
-    // get nearby values
     var value = $(this).siblings('.description').val();
     var time = $(this).parent().attr('id');
 
-    // save in localStorage
+    // saves text in localStorage
     localStorage.setItem(time, value);
 
-    // Show notification that item was saved to localStorage by adding class 'show'
-    $('.notification').addClass('show');
-
-    // Timeout to remove 'show' class after 5 seconds
-    setTimeout(function () {
-      $('.notification').removeClass('show');
-    }, 5000);
   });
 
   function hourUpdater() {
@@ -45,6 +40,7 @@ $(document).ready(function () {
   var interval = setInterval(hourUpdater, 15000);
 
   // load any saved data from localStorage
+  $('#hour-8 .description').val(localStorage.getItem('hour-8'));
   $('#hour-9 .description').val(localStorage.getItem('hour-9'));
   $('#hour-10 .description').val(localStorage.getItem('hour-10'));
   $('#hour-11 .description').val(localStorage.getItem('hour-11'));
@@ -55,6 +51,4 @@ $(document).ready(function () {
   $('#hour-16 .description').val(localStorage.getItem('hour-16'));
   $('#hour-17 .description').val(localStorage.getItem('hour-17'));
 
-  // display current day on page
-  $('#currentDay').text(moment().format('dddd, MMMM Do'));
 });
