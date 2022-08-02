@@ -1,6 +1,16 @@
   // display current date and time on page using Moment
   $('#currentDay').text(moment().format('MMMM Do YYYY, h:mm:ss a'));
 
+
+  // live time update every second
+
+  var update = function() {
+    document.getElementById("currentDay")
+    .innerHTML = moment().format('MMMM Do YYYY, h:mm:ss a');
+}
+setInterval(update, 1000);
+
+
     // when button is clicked saves in local storage
 $(document).ready(function () {
   $('.saveBtn').on('click', function () {
