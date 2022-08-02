@@ -4,7 +4,7 @@
     // when button is clicked saves in local storage
 $(document).ready(function () {
   $('.saveBtn').on('click', function () {
-    var value = $(this).siblings('.description').val();
+    var value = $(this).siblings('.textbox').val();
     var time = $(this).parent().attr('id');
 
     // saves text in localStorage
