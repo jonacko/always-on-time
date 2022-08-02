@@ -1,4 +1,10 @@
-/* changed font family but doesn't work */
+
+/* Changed font family using Google fonts */
+
+* {
+  font-family: 'Amatic SC', cursive;
+  font-size: larger;
+}
 
 body {
   font-size: 16px;
@@ -16,14 +22,13 @@ textarea {
 
 .jumbotron {
   text-align: center;
-  font-family: 'Square Peg', cursive;
   background-color: transparent;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
 }
 
-.description {
+.textbox {
   white-space: pre-wrap;
   border: solid;
   border-color: black;
@@ -63,14 +68,14 @@ textarea {
 }
 
 .saveBtn {
-  border:none;
+  border: solid;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   background-color: #ace3ef;
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn .hover {
   font-size: 20px;
   opacity: 0.5;
 }
