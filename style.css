@@ -1,7 +1,6 @@
 /* changed font family but doesn't work */
 
 body {
-  font-family: font-family: 'Square Peg', cursive;
   font-size: 16px;
   line-height: 1;
 }
@@ -17,6 +16,7 @@ textarea {
 
 .jumbotron {
   text-align: center;
+  font-family: 'Square Peg', cursive;
   background-color: transparent;
   color: black;
   border-radius: 0;
