@@ -4,7 +4,8 @@
 
 Image of deployed web page:
 
-[image 1 here]
+![image](https://user-images.githubusercontent.com/106882755/182896029-e0dd0d19-a53e-4c14-88c2-059ae5f98f04.png)
+
 
 Contents:
 
@@ -17,7 +18,8 @@ Contents:
 
 This project was undertaken as a submission for a Birmingham City Bootcamp assignment, with a brief to create a simple calendar application that allows a user to save events for each hour of the day. It required the use of Moment.js to work with date and time and to be powered by jQuery.
 
-[image 2 here]
+![image](https://user-images.githubusercontent.com/106882755/182896224-849d7b32-044b-490a-a890-b80457452e2c.png)
+
 
 ## 2. Key amendments:
 
