@@ -31,7 +31,7 @@ Please see commented out code for detail of issues/further amendments needed, bu
 - TO DO: 
 
 ## 4. Credits
-- Help accessing time block loops and local storage code: https://birmingham.bootcampcontent.com/university-of-birmingham/UBHM-VIRT-FSF-PT-06-2022-U-LOLC/-/tree/main/05-Third-Party-APIs/02-Challenge
+- Help accessing time block loops and local storage code: https://birmingham.bootcampcontent.com/university-of-birmingham/UBHM-VIRT-FSF-PT-06-2022-U-LOLC/-/tree/main/05-Third-Party-APIs/02-Challenge Retrieval date: 31/07/22 
 
 - Help adding live time update in JS: https://stackoverflow.com/questions/34625764/moment-js-dynamically-update-time-in-seconds
 
