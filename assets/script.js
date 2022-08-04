@@ -63,3 +63,5 @@ jQuery(document).ready(function () {
   jQuery('#hour-17 .textbox').val(localStorage.getItem('hour-17'));
 
 });
+
+//TODO: add media queries to optimy application for different screen sizes

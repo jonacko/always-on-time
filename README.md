@@ -21,7 +21,13 @@ This project was undertaken as a submission for a Birmingham City Bootcamp assig
 
 ## 2. Key amendments:
 
-- 
+- Updated CDN link for Bootstrap & jQuery
+- Google Fonts links updated with chosen font style & linked in CSS
+- CSS modified to 
+- Timeblocks added as divs/textarea 8am - 5pm in HTML
+- Date & time added using moment; updates time every millisecond to display live time by the second
+- Data in 'textbox' saved to localStorage; reloads on refreshing page
+- If statement added to check hour-block and add/remove CSS classes as necessary
 
 
 ## 3. Issues encountered/further amendments
