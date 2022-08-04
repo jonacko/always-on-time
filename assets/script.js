@@ -27,14 +27,14 @@ jQuery(document).ready(function () {
     // get current number of hours
     var currentHour = moment().hours();
 
-    // loop over time blocks
+    // loop over time blocks then check if this time has passed
     jQuery('.hour-block').each(function () {
       var blockHour = parseInt(window.jQuery(this).attr('id').split('-')[1]);
 
-      // check if we've moved past this time
+  
       if (blockHour < currentHour) {
         jQuery(this).addClass('past');
-      } else if (blockHour === currentHour) {
+      } else if (blockHour === currentHour) { 
         jQuery(this).removeClass('past');
         jQuery(this).addClass('present');
       } else {
@@ -48,7 +48,7 @@ jQuery(document).ready(function () {
   hourUpdater();
 
   // set up interval to check if current time needs to be updated
-  var interval = setInterval(hourUpdater, 15000);
+  var interval = setInterval(hourUpdater, 10000);
 
   // load any saved data from localStorage
   jQuery('#hour-8 .textbox').val(localStorage.getItem('hour-8'));

@@ -15,7 +15,7 @@ Contents:
 
 ## 1. Summary
 
-This project was undertaken as a submission for a Birmingham City Bootcamp assignment, with a brief to create a simple calendar application that allows a user to save events for each hour of the day. It required the use of Moment.js to work with date and time.
+This project was undertaken as a submission for a Birmingham City Bootcamp assignment, with a brief to create a simple calendar application that allows a user to save events for each hour of the day. It required the use of Moment.js to work with date and time and to be powered by jQuery.
 
 [image 2 here]
 
