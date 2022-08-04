@@ -1,6 +1,6 @@
 # always-on-time
 - Challenge 5 assignment for BCU Bootcamp due 04-08-22
-- Deployed URL: 
+- Deployed URL: https://jonacko.github.io/always-on-time/
 
 Image of deployed web page:
 
@@ -23,8 +23,9 @@ This project was undertaken as a submission for a Birmingham City Bootcamp assig
 
 - Updated CDN link for Bootstrap & jQuery
 - Google Fonts links updated with chosen font style & linked in CSS
-- CSS modified to 
+- CSS modified for personalisation
 - Timeblocks added as divs/textarea 8am - 5pm in HTML
+- Grid system added using Bootstrap
 - Date & time added using moment; updates time every millisecond to display live time by the second
 - Data in 'textbox' saved to localStorage; reloads on refreshing page
 - If statement added to check hour-block and add/remove CSS classes as necessary
@@ -34,7 +35,8 @@ This project was undertaken as a submission for a Birmingham City Bootcamp assig
 
 Please see commented out code for detail of issues/further amendments needed, but summary is below:
 
-- TO DO: 
+- TO DO: optimize for other screen sizes using media queries (although not in assignment specification)
+- TODO: further explore use of 'this' keywords & chaining multiple methods
 
 ## 4. Credits
 - Help accessing time block loops and local storage code: https://birmingham.bootcampcontent.com/university-of-birmingham/UBHM-VIRT-FSF-PT-06-2022-U-LOLC/-/tree/main/05-Third-Party-APIs/02-Challenge Retrieval date: 31/07/22 

@@ -1,4 +1,6 @@
 
+  jQuery(document).ready(function () {
+  
   // display current date and time on page using Moment
   jQuery('#currentDay').text(moment().format('MMMM Do YYYY, h:mm:ss a'));
 
@@ -8,12 +10,15 @@
     document.getElementById("currentDay")
     .innerHTML = moment().format('MMMM Do YYYY, h:mm:ss a');
 }
+
 setInterval(update, 1000);
 
 
     // sets variables for what to save in local storage
-jQuery(document).ready(function () {
+    //note: explore usage of 'this' further - useful method
+
   jQuery('.saveBtn').on('click', function () {
+ 
     var scheduleNotes = jQuery(this).siblings('.textbox').val();
     var scheduleTime = jQuery(this).parent().attr('id');
 
@@ -64,4 +69,4 @@ jQuery(document).ready(function () {
 
 });
 
-//TODO: add media queries to optimy application for different screen sizes
+//TODO: add media queries to optimze application for different screen sizes
